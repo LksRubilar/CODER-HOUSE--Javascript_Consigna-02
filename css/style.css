@@ -1,0 +1,32 @@
+/* === CSS SETINGS === */
+html {
+    font-size: 62.5%; 
+    box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem; 
+}
+
+/* Codigo pagina */
+.cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cont__txt {
+    width: 100%;
+    grid-column: 1 / 3;
+    text-align: center;
+}
+.bd {
+    background-image: url(../img/coderhouse.webp);
+    background-size: cover;
+}
+.hd {
+    color: white;
+    font-size: 6rem;
+}
